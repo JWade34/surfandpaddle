@@ -1,0 +1,126 @@
+@import "header";
+
+
+
+$blue: #0E2745;
+
+/*
+header {
+  background: url(http://assets.worldwildlife.org/photos/2325/images/hero_small/mountains-hero.jpg?1345838509);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .nav {
+    bottom-padding: 80px;
+  }
+
+  .sit {
+    background: rgba(#0E2745, 0.6) no-repeat center center fixed;
+    padding: 6em;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 4em;
+    margin-bottom: 0;
+  }
+  h5 {
+    color: $blue;
+    margin-top: 0;
+    font-size: 1em;
+  }
+  text-align: center;
+}
+*/
+
+
+.col-md-8 {
+    color: $blue;
+    text-align: left;
+    padding-top: 50px;
+
+  h1 {
+    text-transform: uppercase;
+    color: black;
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  .author {
+    color: $blue;
+    margin-top: 0;
+    font-size: 1em;
+  }
+
+  blockquote {
+    text-align: center;
+    color: #013ADF;
+  }
+}
+
+
+.col-md-4 {
+  padding: 10px;
+  text-align: center;
+  color: #A4A4A4;
+  p {
+    text-align: left;
+  }
+  h6 {
+    text-align: left;
+    color: #013ADF;
+  }
+}
+
+
+
+section {
+  text-align: center;
+  clear: left;
+  h3 {
+    color: $blue;
+    font-size: 25px;
+  }
+}
+
+li {
+  display: inline;
+  float: right;
+  padding-top: 30px;
+}
+
+.pics {
+  width: 25%;
+  height: 150px;
+  float: left;
+  .overlay {
+    background: rgba($blue, 0.6) no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+  }
+  &:hover {
+    .overlay {
+      background: none;
+    }
+  }
+}
+
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background: $blue;
+  color: #D8D8D8;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: x-small;
+
+  .logo {
+    img {
+      height: 30px;
+    }
+    padding-top: 25px;
+
+  }
+}
